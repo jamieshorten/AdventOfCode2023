@@ -12,20 +12,20 @@ final class Day01Tests: XCTestCase {
     a1b2c3d4e5f
     treb7uchet
     """
-    
-    let testData2 = """
-      two1nine
-      eightwothree
-      abcone2threexyz
-      xtwone3four
-      4nineeightseven2
-      zoneight234
-      7pqrstsixteen
-      """
-    func testPart1() throws {
-        let challenge = Day01(data: testData1)
-        XCTAssertEqual(String(describing: challenge.part2()), "142")
-    }
+
+  let testData2 = """
+    two1nine
+    eightwothree
+    abcone2threexyz
+    xtwone3four
+    4nineeightseven2
+    zoneight234
+    7pqrstsixteen
+    """
+  func testPart1() throws {
+    let challenge = Day01(data: testData1)
+    XCTAssertEqual(String(describing: challenge.part2()), "142")
+  }
   func testPart2() throws {
     let challenge = Day01(data: testData2)
     XCTAssertEqual(String(describing: challenge.part2()), "281")
