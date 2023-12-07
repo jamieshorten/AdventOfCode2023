@@ -24,4 +24,5 @@ extension StringProtocol {
     }
     return result
   }
+
 }
